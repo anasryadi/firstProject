@@ -2,12 +2,65 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
 body{
     background-color: rgb(18, 118, 194);
+    margin: 0;
+    padding: 0;
+}
+
+
+.content{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 50%;
+}
+.h1Nav{
+    display: flex;
+     width: 100vw;
+     height: 100vh;
+    
+}
+.kauaiContainer{
+    display: flex;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.kauai{
+    background-image: url("project1.jpg");
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* .content{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+} */
+
+
+
+
+
+/* div{
+    display: flex;
+} */
+
+
+h1{
+    font-size: 60px;
+    font-family: 'Water Brush', cursive;
+
 }
 
 nav{
@@ -15,21 +68,16 @@ nav{
     font-family: 'Poppins', sans-serif;
 }
 
-.kauai{
-    max-width: 50%;
-
-}
-
-h1{
-    font-size: 60px;
-    font-family: 'Water Brush', cursive;
-}
-
-div{
-    display: flex;
-}
-
 p{
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+}
+
+
+
+/* Contact */
+
+.contact{
+    height: 100vh;
+    width: 65%;
 }
