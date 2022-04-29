@@ -13,6 +13,8 @@ body{
     justify-content: space-between;
 }
 
+/* Home */
+
 .content{
     display: flex;
     align-items: center;
@@ -25,10 +27,6 @@ body{
     height: 100vh;
   }
 
-/* .h1Nav{
-     height: 100vh;
-} */
-
 
 .kauai{
     background-image: url("project1.jpg");
@@ -38,10 +36,45 @@ body{
     background-size: cover;
 }
 
+/* Contact */
 
-/* div{
+.contact{
+    background-image: url("contact.jpeg");
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+}
+.contactContainer{
     display: flex;
-} */
+    height: 100vh;
+  }
+.contactContent{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     width: 49%;
+}
+
+  /* Bio */
+
+  .bio{
+    background-image: url("bio.jpg");
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+}
+.bioContainer{
+    display: flex;
+    height: 100vh;
+  }
+.bioContent{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     width: 49%;
+}
 
 
 /* Styling */
@@ -84,7 +117,7 @@ p{
     transform: translateY(-100%);
     transition: transform 0.2s;
     top: 0;
-    left: 51%;
+    left: 49%;
     right: 0;
     bottom: 50%;
     z-index: 99;
@@ -98,42 +131,3 @@ p{
     transform: translateY(0);
   }
 
-/* Contact */
-
-.contact{
-    background-image: url("contact.jpeg");
-    position: fixed;
-    width: 50%;
-    height: 100vh;
-    background-size: cover;
-}
-.contactContainer{
-    display: flex;
-    height: 100vh;
-  }
-.contactContent{
-    display: flex;
-    align-items: center;
-     flex-direction: column;
-     width: 49%;
-}
-
-  /* Bio */
-
-  .bio{
-    background-image: url("bio.jpg");
-    position: fixed;
-    width: 50%;
-    height: 100vh;
-    background-size: cover;
-}
-.bioContainer{
-    display: flex;
-    height: 100vh;
-  }
-.bioContent{
-    display: flex;
-    align-items: center;
-     flex-direction: column;
-     width: 49%;
-}
