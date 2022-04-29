@@ -9,26 +9,26 @@ body{
     background-color: rgb(18, 118, 194);
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .content{
-    position: absolute;
-     width: 50%;
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     width: 49%;
 }
 
 .kauaiContainer{
     display: flex;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
-    display: flex;
-    justify-content: flex-start;
   }
 
 .h1Nav{
-    display: flex;
-     width: 100vw;
      height: 100vh;
-    
+
 }
 
 
@@ -111,6 +111,24 @@ p{
 /* Contact */
 
 .contact{
+    background-image: url("contact.jpeg");
+    position: fixed;
+    width: 50%;
     height: 100vh;
-    width: 65%;
+    background-size: cover;
 }
+
+.contactContainer{
+    display: flex;
+    /* width: 100vw; */
+    height: 100vh;
+  }
+  .contactContent{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     width: 49%;
+}
+
+  /* Bio */
+
