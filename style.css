@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: rgb(18, 118, 194);
+    background-color: rgb(78, 140, 188);
     margin: 0;
     padding: 0;
     display: flex;
@@ -121,7 +121,7 @@ p{
     right: 0;
     bottom: 50%;
     z-index: 99;
-    background: rgb(18, 118, 194);
+    background-color: rgb(78, 140, 188);
     color: white;
     list-style: none;
     padding-top: 4rem;
@@ -131,3 +131,9 @@ p{
     transform: translateY(0);
   }
 
+  .icon {
+    width: 35px;
+    height: 4px;
+    background-color: rgb(18, 118, 194);
+    margin: 6px 0;
+  }
