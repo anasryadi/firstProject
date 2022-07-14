@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: rgb(78, 140, 188);
+    background-color: rgb(149, 190, 221);
     margin: 0;
     padding: 0;
     display: flex;
@@ -121,7 +121,7 @@ p{
     right: 0;
     bottom: 50%;
     z-index: 99;
-    background-color: rgb(78, 140, 188);
+    background-color: rgb(149, 190, 221);
     color: white;
     list-style: none;
     padding-top: 4rem;
