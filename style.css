@@ -5,135 +5,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
-body{
-    background-color: rgb(149, 190, 221);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+body {
+  background-color: rgb(149, 190, 221);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Home */
 
-.content{
-    display: flex;
-    align-items: center;
-     flex-direction: column;
-     width: 49%;
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 49%;
 }
 
-.kauaiContainer{
-    display: flex;
-    height: 100vh;
-  }
+.kauaiContainer {
+  display: flex;
+  height: 100vh;
+}
 
 
-.kauai{
-    background-image: url("bio.jpg");
-    position: fixed;
-    width: 50%;
-    height: 100vh;
-    background-size: cover;
+.kauai {
+  background-image: url("bio.jpg");
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  background-size: cover;
 }
 
 /* Contact */
 
-.contact{
-    background-image: url("contact.jpeg");
-    position: fixed;
-    width: 50%;
-    height: 100vh;
-    background-size: cover;
-}
-.contactContainer{
-    display: flex;
-    height: 100vh;
-  }
-.contactContent{
-    display: flex;
-    align-items: center;
-     flex-direction: column;
-     width: 49%;
+.contact {
+  background-image: url("contact.jpeg");
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  background-size: cover;
 }
 
-  /* Bio */
-
-  .bio{
-    background-image: url("bio.jpg");
-    position: fixed;
-    width: 50%;
-    height: 100vh;
-    background-size: cover;
-}
-.bioContainer{
-    display: flex;
-    height: 100vh;
-  }
-.bioContent{
-    display: flex;
-    align-items: center;
-     flex-direction: column;
-     width: 49%;
+.contactContainer {
+  display: flex;
+  height: 100vh;
 }
 
+.contactContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 49%;
+}
+
+/* Bio */
+
+.bio {
+  background-image: url("bio.jpg");
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.bioContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.bioContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 49%;
+}
+
+/* Projects */
+
+.projectContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 49%;
+}
 
 /* Styling */
 
-h1{
-    font-size: 60px;
-    font-family: 'Water Brush', cursive;
+h1 {
+  font-size: 60px;
+  font-family: 'Water Brush', cursive;
 
 }
 
-nav{
-    font-size: 35px;
-    font-family: 'Poppins', sans-serif;
+nav {
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
 }
 
-p{
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
 }
 
 /* Hamburger */
 
 .hamburger {
-    position: fixed;
-    z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    padding: 4px;
-    border: black solid 1px;
-    background: white;
-    cursor: pointer;
-  }
-  
-  .closeIcon {
-    display: none;
-  }
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
+}
 
-  .menu {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 51%;
-    right: 0;
-    bottom: 50%;
-    z-index: 99;
-    background-color: rgb(149, 190, 221);
-    color: white;
-    list-style: none;
-    padding-top: 4rem;
-  }
+.closeIcon {
+  display: none;
+}
 
-  .showMenu {
-    transform: translateY(0);
-  }
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 51%;
+  right: 0;
+  bottom: 50%;
+  z-index: 99;
+  background-color: rgb(149, 190, 221);
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+}
 
-  .icon {
-    width: 35px;
-    height: 4px;
-    background-color: rgb(18, 118, 194);
-    margin: 6px 0;
-  }
+.showMenu {
+  transform: translateY(0);
+}
+
+.icon {
+  width: 35px;
+  height: 4px;
+  background-color: rgb(18, 118, 194);
+  margin: 6px 0;
+}
